@@ -1,0 +1,29 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_indigo_500</item>
+        <item name="colorPrimaryDark">@color/md_indigo_700</item>
+        <item name="colorAccent">@color/md_amber_A200</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/md_background</item>
+        <item name="android:textColorPrimary">@color/md_black_1000</item>
+        <item name="android:textColorSecondary">@color/md_white_1000</item>
+
+    </style>
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:background">@color/md_indigo_500</item>
+    </style>
+
+    <style name="ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="popup" parent="Widget.AppCompat.ListPopupWindow">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/md_black_1000</item>
+        <item name="android:background">@color/md_white_1000</item>
+    </style>
+
+</resources>
